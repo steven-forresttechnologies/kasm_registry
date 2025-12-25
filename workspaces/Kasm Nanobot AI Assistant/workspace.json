@@ -11,10 +11,12 @@
   "architecture": [
     "amd64"
   ],
-  "environment": {
-    "ANTHROPIC_API_KEY": "your-anthropic-key",
-    "OPENAI_API_KEY": "your-openai-key",
-    "MODEL_NAME": "claude-sonnet-4-5"
+  "run_config": {
+    "environment": {
+      "ANTHROPIC_API_KEY": "your-anthropic-key",
+      "OPENAI_API_KEY": "your-openai-key",
+      "MODEL_NAME": "claude-sonnet-4-5"
+    }
   },
   "compatibility": [
     {
