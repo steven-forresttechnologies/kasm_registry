@@ -21,20 +21,20 @@
   "compatibility": [
     {
       "version": "1.16.x",
-      "image": "tejaswaroop156/nanobot_kasm:latest",
-      "uncompressed_size_mb": 1433,
+      "image": "tejaswaroop156/nanobot_kasm:develop",
+      "uncompressed_size_mb": 3604,
       "available_tags": []
     },
     {
       "version": "1.17.x",
-      "image": "tejaswaroop156/nanobot_kasm:latest",
-      "uncompressed_size_mb": 1433,
+      "image": "tejaswaroop156/nanobot_kasm:develop",
+      "uncompressed_size_mb": 3604,
       "available_tags": []
     },
     {
       "version": "1.18.x",
-      "image": "tejaswaroop156/nanobot_kasm:latest",
-      "uncompressed_size_mb": 1433,
+      "image": "tejaswaroop156/nanobot_kasm:develop",
+      "uncompressed_size_mb": 3604,
       "available_tags": []
     }
   ]
