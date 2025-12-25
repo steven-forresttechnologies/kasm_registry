@@ -1,5 +1,5 @@
 {
-  "description": "Nanobot AI Assistant for automating Kasm tasks like Custom Image creation.",
+  "description": "Kasm Nanobot AI Assistant for automating Kasm tasks like Custom Image creation.",
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "ai_assistant.png",
   "categories": [
@@ -7,7 +7,7 @@
     "AI Assistant"
   ],
   "notes": "Replace the environment variables with your actual LLM API keys and model name as needed. Only OpenAI and Anthropic API keys are supported.",
-  "friendly_name": "Nanobot AI Assistant",
+  "friendly_name": "Kasm Nanobot AI Assistant",
   "architecture": [
     "amd64"
   ],
