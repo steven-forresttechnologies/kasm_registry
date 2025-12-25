@@ -4,10 +4,10 @@ const nextConfig = {
   output: 'export',
   distDir: '../public',
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
+    name: "Teja's Kasm Registry",
+    description: 'My Custom Images for Kasm Workspaces',
     icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
+    listUrl: 'https://registry.tejaswaroop.com/',
     contactUrl: 'https://kasmweb.com/support',
   },
   reactStrictMode: true,

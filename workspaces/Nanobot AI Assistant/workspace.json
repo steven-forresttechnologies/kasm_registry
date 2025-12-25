@@ -1,0 +1,39 @@
+{
+  "description": "Nanobot AI Assistant for automating Kasm tasks like Custom Image creation.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "ai_assistant.png",
+  "categories": [
+    "Productivity",
+    "AI Assistant"
+  ],
+  "notes": "Replace the environment variables with your actual LLM API keys and model name as needed. Only OpenAI and Anthropic API keys are supported.",
+  "friendly_name": "Nanobot AI Assistant",
+  "architecture": [
+    "amd64"
+  ],
+  "environment": {
+    "ANTHROPIC_API_KEY": "your-anthropic-key",
+    "OPENAI_API_KEY": "your-openai-key",
+    "MODEL_NAME": "claude-sonnet-4-5"
+  },
+  "compatibility": [
+    {
+      "version": "1.16.x",
+      "image": "tejaswaroop156/nanobot_kasm:latest",
+      "uncompressed_size_mb": 1433,
+      "available_tags": []
+    },
+    {
+      "version": "1.17.x",
+      "image": "tejaswaroop156/nanobot_kasm:latest",
+      "uncompressed_size_mb": 1433,
+      "available_tags": []
+    },
+    {
+      "version": "1.18.x",
+      "image": "tejaswaroop156/nanobot_kasm:latest",
+      "uncompressed_size_mb": 1433,
+      "available_tags": []
+    }
+  ]
+}

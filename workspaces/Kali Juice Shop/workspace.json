@@ -1,0 +1,39 @@
+{
+  "description": "Kali Linux pre-loaded with OWASP Juice Shop for testing out the OWASP Top 10 vulnerabilities.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "juiceshop.png",
+  "categories": [
+    "Pentest Lab"
+  ],
+  "friendly_name": "Kali Linux Juice Shop",
+  "architecture": [
+    "amd64"
+  ],
+  "run_config": {
+    "runtime": "sysbox-runc",
+    "entrypoint": [
+      "/sbin/init"
+    ],
+    "user": 0
+  },
+  "compatibility": [
+    {
+      "version": "1.16.x",
+      "image": "tejakasm/kasm-kali-juice-shop:1.15.0",
+      "uncompressed_size_mb": 10400,
+      "available_tags": []
+    },
+    {
+      "version": "1.17.x",
+      "image": "tejakasm/kasm-kali-juice-shop:1.15.0",
+      "uncompressed_size_mb": 10400,
+      "available_tags": []
+    },
+    {
+      "version": "1.18.x",
+      "image": "tejakasm/kasm-kali-juice-shop:1.15.0",
+      "uncompressed_size_mb": 10400,
+      "available_tags": []
+    }
+  ]
+}
