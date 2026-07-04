@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Build # Have to run processing first so the list.json exists to be included in the the deploy
+      - name: Build
         run: |
           npm ci --prefix processing 
           npm ci --prefix site
